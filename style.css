@@ -5,7 +5,14 @@
             padding: 50px;
         }
 
-        h1 {
+        .title{
+            background-color: #e9cc0e;
+          color: rgb(255, 7, 7); 
+         
+        }
+
+
+        h2 {
             color: #260028;
         }
 
@@ -42,4 +49,3 @@
         .icon {
             margin-right: center ;
         }
-
