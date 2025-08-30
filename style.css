@@ -54,3 +54,10 @@
         .icon {
             margin-right: center ;
         }
+        
+        .footer{
+           background-color: #e603529e;
+            color: rgb(98, 0, 125); 
+            text-align: center;
+            margin-top: 50px;
+        }
