@@ -1,18 +1,12 @@
 body{
     font-family: sans-serif;
-    grid, .productos {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
 }
-
-.card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
 }
-
+.card-productos{
+    grid-column-start: 2;
 }
