@@ -1,7 +1,6 @@
  body {
             font-family: Arial, sans-serif;
             background: #3495df;
-            text-align: auto;
             padding: 0;
             margin: 0;
             display: grid;
@@ -13,26 +12,17 @@
         }
 
         .title{
-            background-color: #2c4cdd9e;
+            background-color: rgb(7, 7, 159);
             color: rgb(162, 212, 215); 
-            text-align: center;
-         
-        }
-
-        .nav{
+            text-align:auto;
             display: flex;
             padding: 10px;
-            font-family: serif;
-            font-size: 30px;
+            font-size: 25px;
             margin-left: auto;
-            margin-right:4%;
             color: rgb(162, 212, 215);
-            text-align: center;
-            margin-top: 50px;
             gap: 25px;
-
-
         }
+
         
 
         h2 {
@@ -75,14 +65,14 @@
         }
         
         .footer{
-           background-color:#2c4cdd9e;
+           background-color:rgb(7, 7, 159);
             color: rgb(162, 212, 215);
             text-align: center;
             margin-top: 100px;
         }
 
         .sopor{
-            background-color:#2c4cdd9e;
+           
             color: rgb(162, 212, 215);
             text-align: center;
             margin-top: 10px;
