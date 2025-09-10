@@ -3,27 +3,36 @@
             background: #3495df;
             padding: 0;
             margin: 0;
-            display: grid;
+            
             
         }
 
         a{
             text-decoration:none;
-        }
 
-        .title{
-            background-color: rgb(7, 7, 159);
-            color: rgb(162, 212, 215); 
-            text-align:auto;
-            display: flex;
-            padding: 10px;
-            font-size: 25px;
-            margin-left: auto;
-            color: rgb(162, 212, 215);
-            gap: 25px;
         }
-
         
+       .parent {
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-template-rows: repeat(5, 1fr);
+        gap: 8px;
+        }
+    
+        .div8 {
+          grid-column: span 2 / span 2;
+        }
+
+       .div9 {
+          grid-column: span 2 / span 2;
+          grid-column-start: 6;
+          grid-row-start: 1;
+        }
+
+        .div10 {      
+         grid-column-start: 3;
+         grid-row-start: 1;
+        } 
 
         h2 {
             color:rgb(162, 212, 215);
@@ -65,7 +74,7 @@
         }
         
         .footer{
-           background-color:rgb(7, 7, 159);
+           
             color: rgb(162, 212, 215);
             text-align: center;
             margin-top: 100px;
