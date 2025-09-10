@@ -22,3 +22,9 @@ body{
     background-position: center;
     animation: anim 2.5s linear infinite;
 }
+
+@keyframes anim {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
