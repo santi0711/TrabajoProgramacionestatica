@@ -51,3 +51,10 @@ h2 {
     text-align: center;
     margin: 24px 0;
 }
+
+.username-box {
+    width: 100%;
+    margin: 48px 0;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
