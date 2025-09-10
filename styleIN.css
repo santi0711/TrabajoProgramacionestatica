@@ -40,3 +40,7 @@ body{
     align-items: center;
     backdrop-filter: blur(15px);
 }
+
+form{
+    width: 80%;
+}
