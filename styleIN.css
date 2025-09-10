@@ -52,9 +52,20 @@ h2 {
     margin: 24px 0;
 }
 
-.username-box {
+.input-box {
     width: 100%;
     margin: 48px 0;
     position: relative;
     border-bottom: 1px solid #fff;
+}
+
+.input-box label {
+    color: #ff0000;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
 }
