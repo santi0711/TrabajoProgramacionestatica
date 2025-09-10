@@ -44,3 +44,10 @@ body{
 form{
     width: 80%;
 }
+
+h2 {
+    font-size: 3em;
+    color: #ff0000;
+    text-align: center;
+    margin: 24px 0;
+}
