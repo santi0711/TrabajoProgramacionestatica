@@ -9,3 +9,16 @@ body{
     margin: 0;
     font-size: 24px;
 }
+
+.principal-box {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://cdnb.artstation.com/p/assets/images/images/017/794/915/original/jimena-rubirozqui-comp-fondofuego-1.gif?1557361377);
+    background-size: cover;
+    background-position: center;
+    animation: anim 2.5s linear infinite;
+}
