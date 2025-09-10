@@ -9,3 +9,45 @@ body{
     margin: 0;
     font-size: 24px;
 }
+
+.principal-box {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://cdnb.artstation.com/p/assets/images/images/017/794/915/original/jimena-rubirozqui-comp-fondofuego-1.gif?1557361377);
+    background-size: cover;
+    background-position: center;
+    animation: anim 2.5s linear infinite;
+}
+
+@keyframes anim {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.login-box {
+    width: 550px;
+    height: 510px;
+    position: relative;
+    border-radius: 15px;
+    border: 3px solid #ffffff80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+form{
+    width: 80%;
+}
+
+h2 {
+    font-size: 3em;
+    color: #ff0000;
+    text-align: center;
+    margin: 24px 0;
+}
