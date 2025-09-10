@@ -1,23 +1,41 @@
  body {
             font-family: Arial, sans-serif;
-            background: #eaeaea;
-            text-align: auto;
+            background: #3495df;
             padding: 0;
             margin: 0;
-            display: grid;
+            
             
         }
 
-        .title{
-            background-color: #e603529e;
-            color: rgb(138, 2, 192); 
-            text-align: auto;
-         
+        a{
+            text-decoration:none;
+
         }
         
+       .parent {
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-template-rows: repeat(5, 1fr);
+        gap: 8px;
+        }
+    
+        .div8 {
+          grid-column: span 2 / span 2;
+        }
+
+       .div9 {
+          grid-column: span 2 / span 2;
+          grid-column-start: 6;
+          grid-row-start: 1;
+        }
+
+        .div10 {      
+         grid-column-start: 3;
+         grid-row-start: 1;
+        } 
 
         h2 {
-            color: #840284;
+            color:rgb(162, 212, 215);
         }
 
         .contact{
@@ -30,7 +48,7 @@
             margin: 15px;
             padding: 15px 30px;
             font-size: 18px;
-            color: #fffdfd;
+            color: #ffffff;
             border-radius: 20px;
             transition:  0.3s;
         }
@@ -56,8 +74,16 @@
         }
         
         .footer{
-           background-color: #e603529e;
-            color: rgb(98, 0, 125); 
+           
+            color: rgb(162, 212, 215);
             text-align: center;
-            margin-top: 50px;
+            margin-top: 100px;
+        }
+
+        .sopor{
+           
+            color: rgb(162, 212, 215);
+            text-align: center;
+            margin-top: 10px;
+
         }
