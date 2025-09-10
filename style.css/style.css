@@ -14,8 +14,10 @@
         
        .parent {
          display: grid;
-         grid-template-columns: repeat(5, 1fr);
-         grid-template-rows: repeat(5, 1fr);
+         grid-template-columns: repeat(3, auto);
+         gap: 100px ;
+         justify-content:flex-end;
+         padding: 40px;
          
         }
     
