@@ -106,3 +106,7 @@ h2 {
     display: flex;
     gap: 5px;
 }
+
+.remember-forgot input {
+    transform: scale(1.3);
+}
