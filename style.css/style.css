@@ -23,6 +23,9 @@
     
         .div8 {
           grid-column: span 2 / span 2;
+          grid-column-start: -13;
+         grid-row-start: 1;
+
         }
         .div2 {
          grid-column-start: 4;
