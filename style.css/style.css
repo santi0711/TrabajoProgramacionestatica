@@ -21,7 +21,12 @@
             display: flex;
             gap: 20px;
         }
-        
+        nav a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
         a{
             text-decoration:none;
 
