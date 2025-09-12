@@ -6,6 +6,13 @@
             
             
         }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #269003;
+        }
 
         a{
             text-decoration:none;
@@ -20,28 +27,6 @@
          padding: 40px;
          
         }
-    
-        .div8 {
-          grid-column: span 2 / span 2;
-          grid-column-start: -13;
-         grid-row-start: 1;
-
-        }
-        .div2 {
-         grid-column-start: 4;
-         grid-row-start: 1;
-        }
-
-        .div3 {
-         grid-column-start: 5;
-         grid-row-start: 1;
-        }
-   
-        .div10 {      
-         grid-column-start: 3;
-         grid-row-start: 1;
-        } 
-
         h2 {
             color:rgb(162, 212, 215);
         }
