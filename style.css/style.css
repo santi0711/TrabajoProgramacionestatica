@@ -17,6 +17,10 @@
             font-size: 1.8rem;
             color: black;
         }
+        header h1:hover,
+        header h1:active{
+            color: #ffffff;
+        }
         nav{
             display: flex;
             gap: 20px;
@@ -27,6 +31,10 @@
             font-weight: bold;
             transition: 0.3s;
         }
+        nav a:hover,
+        nav a:active{
+            color: #ffffff;
+        } 
         a{
             text-decoration:none;
 
