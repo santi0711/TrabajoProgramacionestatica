@@ -34,7 +34,7 @@ body{
     height: 510px;
     position: relative;
     border-radius: 15px;
-    border: 3px solid #ffffff80;
+    border: 3px solid #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,96 @@ form{
 
 h2 {
     font-size: 3em;
-    color: #ff0000;
+    color: #ffffff;
     text-align: center;
     margin: 24px 0;
+}
+
+.input-box {
+    width: 100%;
+    margin: 48px 0;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.input-box label {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+}
+
+.remember-forgot {
+    margin: 0 0 32px 0;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label {
+    display: flex;
+    gap: 5px;
+}
+
+.remember-forgot input {
+    transform: scale(1.3);
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 500;
+}
+
+.register-link {
+    font-size: .9em;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px 0 30px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
 }
