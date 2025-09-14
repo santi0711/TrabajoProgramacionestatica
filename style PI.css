@@ -14,3 +14,12 @@ body {
   color: white;
 }
 
+.nav a{
+  display: grid;
+  color: white;
+  margin:0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content:space-between;
+  align-items: center;
+}
