@@ -1,0 +1,103 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #3495df;
+            padding: 0;
+            margin: 0;
+            
+            
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #269003;
+        }
+        header h1{
+            font-size: 1.8rem;
+            color: black;
+        }
+        header h1:hover,
+        header h1:active{
+            color: #ffffff;
+        }
+        nav{
+            display: flex;
+            gap: 20px;
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover,
+        nav a:active{
+            color: #ffffff;
+        } 
+        a{
+            text-decoration:none;
+
+        }
+        
+       .parent {
+         display: grid;
+         grid-template-columns: repeat(3, auto);
+         gap: 100px ;
+         justify-content:flex-end;
+         padding: 40px;
+         
+        }
+        h2 {
+            color:rgb(162, 212, 215);
+        }
+
+        .contact{
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #ffffff;
+            border-radius: 20px;
+            transition:  0.3s;
+        }
+
+        .whatsapp {
+            background-color: #00e025f1;
+        }
+
+        .whatsapp:hover {
+            background-color: #269003;
+        }
+
+        .instagram {
+            background-color: #ff005dac;
+        }
+
+        .instagram:hover {
+            background-color: #9f025e;
+        }
+
+        .icon {
+            margin-right: center ;
+        }
+        
+        .footer{
+
+            color: rgb(162, 212, 215);
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .sopor{
+           
+            color: rgb(162, 212, 215);
+            text-align: center;
+            margin-top: 10px;
+
+        }
