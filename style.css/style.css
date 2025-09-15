@@ -11,7 +11,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 20px;
-            background: #269003;
+            background: #01043d;
         }
         header h1{
             font-size: 1.8rem;
@@ -87,15 +87,16 @@
             margin-right: center ;
         }
         
-        .footer{
-
-            color: rgb(162, 212, 215);
-            text-align: center;
-            margin-top: 100px;
+        footer{
+           text-align: center;
+           padding: 20px;
+           background: #01043d;
+            color: #ffffff;
+            margin-top: 40px;
         }
 
         .sopor{
-           
+
             color: rgb(162, 212, 215);
             text-align: center;
             margin-top: 10px;
