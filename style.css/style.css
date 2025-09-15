@@ -11,7 +11,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 20px;
-            background: #01043d;
+            background: #141861c9;
         }
         header h1{
             font-size: 1.8rem;
@@ -55,6 +55,7 @@
         .contact{
             margin-top: 50px;
             text-align: center;
+
         }
 
         .contact-button {
@@ -86,11 +87,19 @@
         .icon {
             margin-right: center ;
         }
+        .text{
+             color: black;
+             text-decoration: none;
+             font-weight: bold;
+             text-align: center;
+        }
+
+
         
         footer{
            text-align: center;
            padding: 20px;
-           background: #01043d;
+           background:  #141861c9;
             color: #ffffff;
             margin-top: 40px;
         }
