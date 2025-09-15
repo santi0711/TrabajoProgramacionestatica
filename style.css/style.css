@@ -95,10 +95,14 @@
             margin-top: 40px;
         }
 
-        .sopor{
-
-            color: rgb(162, 212, 215);
-            text-align: center;
-            margin-top: 10px;
-
+        .sopor a{
+             color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+          
         }
+         .sopor a:hover,
+        .sopor a:active{
+            color: #ffffff;
+        } 
