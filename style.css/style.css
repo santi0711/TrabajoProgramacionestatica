@@ -48,9 +48,15 @@
          padding: 40px;
          
         }
-        h2 {
-            color:rgb(162, 212, 215);
+        h2{
+            font-size: 1.8rem;
+            color: black;
         }
+        h2:hover,
+        h2:active{
+            color: #ffffff;
+        }
+       
 
         .contact{
              margin-top: 50px;
