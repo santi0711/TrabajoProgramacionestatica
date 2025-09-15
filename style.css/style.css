@@ -1,0 +1,118 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #126db3;
+            padding: 0;
+            margin: 0;
+            
+            
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #141861c9;
+        }
+        header h1{
+            font-size: 1.8rem;
+            color: black;
+        }
+        header h1:hover,
+        header h1:active{
+            color: #6121e1be;
+        }
+        nav{
+            display: flex;
+            gap: 20px;
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover,
+        nav a:active{
+            color: #6121e1be;
+        } 
+        a{
+            text-decoration:none;
+
+        }
+        
+     
+        h2{
+            font-size: 1.8rem;
+            color: black;
+        }
+        h2:hover,
+        h2:active{
+            color:#6121e1be;
+        }
+       
+
+        .contact{
+             margin-top: 50px;
+             color: #000000c9;
+             text-decoration: none;
+             font-weight: bold;
+             text-align: center;
+
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #ffffff;
+            border-radius: 20px;
+            transition:  0.3s;
+        }
+
+        .whatsapp {
+            background-color: #00e025f1;
+        }
+
+        .whatsapp:hover {
+            background-color: #269003;
+        }
+
+        .instagram {
+            background-color: #ff005dac;
+        }
+
+        .instagram:hover {
+            background-color: #9f025e;
+        }
+
+        .icon {
+            margin-right: center ;
+        }
+        .text{
+            margin-top: 50px;
+             color: black;
+             text-decoration: none;
+             font-weight: bold;
+             text-align: center;
+        }
+
+        footer{
+           text-align: center;
+           padding: 30px;
+           background:  #141861c9;
+            color: #ffffff;
+            margin-top:18%;
+        }
+
+        .sopor a{
+             color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+          
+        }
+         .sopor a:hover,
+        .sopor a:active{
+            color: #6121e1be;
+        } 
