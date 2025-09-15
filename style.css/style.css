@@ -19,7 +19,7 @@
         }
         header h1:hover,
         header h1:active{
-            color: #ffffff;
+            color: #6121e1be;
         }
         nav{
             display: flex;
@@ -33,7 +33,7 @@
         }
         nav a:hover,
         nav a:active{
-            color: #ffffff;
+            color: #6121e1be;
         } 
         a{
             text-decoration:none;
@@ -54,7 +54,7 @@
         }
         h2:hover,
         h2:active{
-            color: #ffffff;
+            color:#6121e1be;
         }
        
 
@@ -104,8 +104,6 @@
              text-align: center;
         }
 
-
-        
         footer{
            text-align: center;
            padding: 30px;
@@ -123,5 +121,5 @@
         }
          .sopor a:hover,
         .sopor a:active{
-            color: #ffffff;
+            color: #6121e1be;
         } 
