@@ -40,14 +40,7 @@
 
         }
         
-       .parent {
-         display: grid;
-         grid-template-columns: repeat(3, auto);
-         gap: 100px ;
-         justify-content:flex-end;
-         padding: 40px;
-         
-        }
+     
         h2{
             font-size: 1.8rem;
             color: black;
