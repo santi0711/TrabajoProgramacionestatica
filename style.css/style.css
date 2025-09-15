@@ -53,8 +53,11 @@
         }
 
         .contact{
-            margin-top: 50px;
-            text-align: center;
+             margin-top: 50px;
+             color: #000000c9;
+             text-decoration: none;
+             font-weight: bold;
+             text-align: center;
 
         }
 
@@ -88,6 +91,7 @@
             margin-right: center ;
         }
         .text{
+            margin-top: 50px;
              color: black;
              text-decoration: none;
              font-weight: bold;
