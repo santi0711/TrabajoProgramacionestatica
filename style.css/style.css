@@ -1,3 +1,10 @@
+    :root{
+          --bg: #0f1226;
+          --panel: #151936;
+          --text: #e9ecff;
+          --radius: 14px;
+          --speed: .35s;
+        }
  body {
             font-family: Arial, sans-serif;
             background: #126db3;
@@ -70,13 +77,7 @@
             border-radius: 20px;
             transition:  0.3s;
         }
-        :root{
-          --bg: #0f1226;
-          --panel: #151936;
-          --text: #e9ecff;
-          --radius: 14px;
-          --speed: .35s;
-        }
+      
 
 
         @keyframes glow {
