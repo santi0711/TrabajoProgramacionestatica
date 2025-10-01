@@ -108,7 +108,7 @@ h2 {
 }
 
 .remember-forgot input {
-    transform: scale(1.3);
+    transform: scale(1.7);
 }
 
 .remember-forgot a {
@@ -116,9 +116,9 @@ h2 {
     text-decoration: none;
 }
 
-button {
+.boton {
     width: 100%;
-    height: 45px;
+    height: 50px;
     background-color: #ffffff;
     border: none;
     border-radius: 40px;
@@ -126,6 +126,10 @@ button {
     font-size: 1em;
     color: #000000;
     font-weight: 500;
+}
+
+.boton a{
+    color: #000000;
 }
 
 .register-link {
