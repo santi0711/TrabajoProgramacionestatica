@@ -5,6 +5,7 @@
             margin: 0;
             
             
+            
         }
         header{
             display: flex;
@@ -69,6 +70,15 @@
             border-radius: 20px;
             transition:  0.3s;
         }
+        :root{
+          --bg: #0f1226;
+          --panel: #151936;
+          --text: #e9ecff;
+          --radius: 14px;
+          --speed: .35s;
+        }
+
+
         @keyframes glow {
             0% { box-shadow: 0 0 0 rgba(108,141,250,0), 0 0 0 rgba(108,141,250,0); }
             70%{ box-shadow: 0 0 28px rgba(108,141,250,.45), 0 0 54px rgba(108,141,250,.25); }
@@ -79,12 +89,19 @@
           --btn-bg: #212754;
          border-color: rgba(108,141,250,.35);
         }
-  .btn.glow:hover{ animation: glow 1.6s ease-out infinite }
+        .btn.glow:hover{ animation: glow 1.6s ease-out infinite }
+
          @keyframes glow1 {
             0% { box-shadow: 0 0 0 rgba(108,141,250,0), 0 0 0 rgba(108,141,250,0); }
             70%{ box-shadow: 0 0 28px rgba(108,141,250,.45), 0 0 54px rgba(108,141,250,.25); }
             100%{ box-shadow: 0 0 0 rgba(108,141,250,0), 0 0 0 rgba(108,141,250,0); }
         }
+          .btn1.glow1{
+          --btn-bg: #212754;
+         border-color: rgba(108,141,250,.35);
+        }
+        .btn1.glow1:hover{ animation: glow 1.6s ease-out infinite }
+
         .icon {
             margin-right: center ;
         }
