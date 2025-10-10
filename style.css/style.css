@@ -62,6 +62,12 @@
              text-align: center;
 
         }
+        
+        .contact h2{
+            font-size: 2em;
+            color: #00e6b8;
+            margin-bottom: 20px;
+        }
 
         .contact-button {
             display: inline-block;
