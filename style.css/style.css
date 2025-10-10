@@ -81,6 +81,8 @@
         .btn{
             --btn-bg:green;
             --btn-fg: var(--text);
+            background-color: #25D366;
+            color: white;
             
         }
       
@@ -93,6 +95,12 @@
             font-size: 1.1em;
             transition: all 0.4s ease;
             box-shadow: 0 0 15px rgba (0, 0, 0, 0.5);
+        }
+
+        .btn a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
         }
 
         @keyframes glow {
