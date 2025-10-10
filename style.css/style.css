@@ -1,5 +1,4 @@
     :root{
-          --bg: #0f1226;
           --panel: #151936;
           --text: #e9ecff;
           --radius: 14px;
@@ -7,12 +6,9 @@
         }
  body {
             font-family: Arial, sans-serif;
-            background: #126db3;
-            padding: 0;
-            margin: 0;
-            
-            
-            
+            background-color: #0d0d0d;
+            color: #f2f2f2;
+               
         }
         header{
             display: flex;
@@ -76,6 +72,11 @@
             color: #ffffff;
             border-radius: 20px;
             transition:  0.3s;
+        }
+        .btn{
+            --btn-bg:green;
+            --btn-fg: var(--text);
+            
         }
       
 
