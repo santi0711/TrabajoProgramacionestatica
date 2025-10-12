@@ -169,6 +169,8 @@ h2 {
     color: #ffffff;
     text-align: center;
     margin: 25px 0 30px;
+    animation: register-link-anim 0.7s ease-out forwards;
+    animation-delay: 1.9s;
 }
 
 .register-link p a {
