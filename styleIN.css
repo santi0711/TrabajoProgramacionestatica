@@ -8,6 +8,7 @@
 body{
     margin: 0;
     font-size: 24px;
+    display: flex;
 }
 
 .principal-box {
