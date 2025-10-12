@@ -73,9 +73,11 @@ h2 {
 
 .input-box {
     width: 100%;
-    margin: 48px 0;
+    margin: 35px 0;
     position: relative;
     border-bottom: 1px solid #fff;
+    transform: translateX(0px);
+    transform: translateY(-25px);
 }
 
 .input-box label {
