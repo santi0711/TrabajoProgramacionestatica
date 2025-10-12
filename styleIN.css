@@ -65,7 +65,10 @@ h2 {
     font-size: 3em;
     color: #ffffff;
     text-align: center;
-    margin: 24px 0;
+    margin: 25px 20;
+    transform: translateY(5px);
+    animation: h2-anim 0.8s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .input-box {
