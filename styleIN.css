@@ -13,6 +13,9 @@ body{
     align-items: center;
     min-height: 100vh;
     background: url(https://cdnb.artstation.com/p/assets/images/images/017/794/915/original/jimena-rubirozqui-comp-fondofuego-1.gif?1557361377);
+    background-size: cover;
+    background-position: center;
+    animation: anim 2.5s linear infinite;
 }
 
 .principal-box {
