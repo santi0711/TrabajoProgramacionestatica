@@ -1,0 +1,51 @@
+/* Fondo general */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: "Poppins", sans-serif;
+  transition: opacity 1s ease;
+}
+
+/* Caja centrada */
+.welcome-box {
+  background: #ffffffee;
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.welcome-box:hover {
+  transform: scale(1.03);
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 25px;
+  color: #666;
+}
+
+button {
+  background: #2575fc;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1b5fd9;
+}
