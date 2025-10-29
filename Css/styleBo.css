@@ -48,4 +48,22 @@ button {
 
 button:hover {
   background: #1b5fd9;
+  main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
 }
+
+.btn-area {
+  position: relative;
+  width: calc(210px + 2px);
+  height: calc(60px + 2px);
+}
+
+   &:hover .main-btn {
+      opacity: .25;
+}
+}
+
