@@ -37,6 +37,12 @@
           text-shadow: 0 0 10px #00ffcc;
         }
 
+        .menu-btn:hover {
+         background:  #00ffcc;
+         color: #fff;
+        }
+
+
         nav{
             display: flex;
             gap: 20px;
