@@ -21,7 +21,22 @@
              color: #00ffcc;
              text-shadow: 0 0 10px #00ffcc;
         }
-       
+        .menu-btn {
+          display: block;
+         background: none;
+         border: 2px solid  #00ffcc;
+         color:  #00ffcc;
+         padding: 8px 12px;
+         border-radius: 6px;
+         font-size: 1rem;
+         cursor: pointer;
+         transition: background 0.3s ease, color 0.3s ease;
+         position: absolute;
+         top: 20px;
+         right: 20px;
+          text-shadow: 0 0 10px #00ffcc;
+        }
+
         nav{
             display: flex;
             gap: 20px;
