@@ -55,7 +55,9 @@
          animation: fadeMenu 0.4s ease;
         }
 
-
+        .nav.active {
+         display:flex;
+        }
 
         nav{
             display: flex;
