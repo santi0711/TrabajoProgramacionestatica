@@ -23,14 +23,14 @@
         <p>Seleccióne la opción de instagram para echar un vistazo a nuestro perfil.</p>
 
         <button class="btn glow"> 
-            <a id="whatsapp-btn" class="contact-button whatsapp" href="https://wa.me/+542994155199" target="_blank">
+            <a id="whatsapp-btn" class="contact-button whatsapp" >
                 <span class="icon">WhatsApp</span> 
             </a>
         </button>
 
         <button class="btn1 glow1">
-            <a id="instagram-btn" class="contact-button instagram" href="https://www.instagram.com/big.vaper?igsh=MXE0eGxxdm1lZ3hqMQ==" target="_blank">
-                <span class="icon"></span> Instagram
+            <a id="instagram-btn" class="contact-button instagram" >
+                <span class="icon"> Instagram </span>
             </a>
         </button>
     </div>
@@ -46,24 +46,59 @@
             <a href="tel:2994516421"><p>Soporte</p></a>
         </div>
     </footer>
-
     <script>
-      const menuBtn = document.querySelector(".menu-btn");
-      const nav = document.querySelector("nav");
+     const menuBtn = document.querySelector(".menu-btn");
+     const nav = document.querySelector("nav");
 
-      menuBtn.addEventListener("click", () => {
-      nav.classList.toggle("active");
-     });
-      
-      document.getElementById('whatsapp-btn').addEventListener('click', function(event) {
-            alert('El sitió web está siendo redirigido a WhatsApp. Pulsa Aceptar para continuar.');
+     menuBtn.addEventListener("click", () => {
+       nav.classList.toggle("active");
+      });
+
+     function showAlert(message, redirectUrl) {
+       const overlay = document.createElement('div');
+       overlay.classList.add('alert-overlay');
+       const alertBox = document.createElement('div');
+       alertBox.classList.add('custom-alert');
+       alertBox.innerHTML = `
+        <p>${message}</p>
+        <div class="btn-container">
+          <button class="accept">Aceptar</button>
+          <button class="cancel">Cancelar</button>
+       </div>`;
+
+       overlay.appendChild(alertBox);
+       document.body.appendChild(overlay);
+       overlay.style.display = 'flex';
+
+       const btnAccept = alertBox.querySelector('.accept');
+       const btnCancel = alertBox.querySelector('.cancel');
+
+       btnAccept.addEventListener('click', () => {
+         overlay.remove();
+    
+         window.open(redirectUrl, '_blank');
+       });
+
+       btnCancel.addEventListener('click', () => {
+         overlay.remove();
         });
+      }
 
-      document.getElementById('instagram-btn').addEventListener('click', function(event) {
-            alert('El sitió web está siendo redirigido a Instagram. Pulsa Aceptar para continuar.');
-        });
-    </script>
+  
+     document.getElementById('whatsapp-btn').addEventListener('click', function(event) {
+       event.preventDefault(); 
+       showAlert('El sitio web será redirigido a WhatsApp. ¿Deseas continuar?', 'https://wa.me/+542994155199');
+      });
 
-    <script src="JS/script1.js"></script>
+     document.getElementById('instagram-btn').addEventListener('click', function(event) {
+       event.preventDefault(); // Evita que se abra el enlace directamente
+       showAlert('El sitio web será redirigido a Instagram. ¿Deseas continuar?', 'https://www.instagram.com/big.vaper?igsh=MXE0eGxxdm1lZ3hqMQ==');
+      });
+</script>
+
+<script src="JS/script1.js"></script>
+
+ 
+
 </body>
 </html>
