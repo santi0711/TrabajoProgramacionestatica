@@ -41,7 +41,7 @@ header{
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     gap: 20px;
     padding: 20px;
 }
