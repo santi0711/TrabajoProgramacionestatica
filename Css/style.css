@@ -1,12 +1,20 @@
 
- body {
+        body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #0d0d0d;
             color: #f2f2f2;
             text-align: center;
-               
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
         }
+
+        body, html {
+         height: 100%;
+         width: 100%;
+        }
+
         header{
             display: flex;
             justify-content: space-between;
@@ -48,7 +56,7 @@
          position: absolute;
          top: 70px;
          right: 20px;
-         background: #b40d71;
+         background: #E1306C;
          padding: 15px;
          border-radius: 15px;
          gap: 10px;
