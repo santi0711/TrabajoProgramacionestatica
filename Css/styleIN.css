@@ -65,7 +65,7 @@ h2 {
     font-size: 3em;
     color: #ffffff;
     text-align: center;
-    margin: 25px 20;
+    margin: 10px 0 70px;
     transform: translateY(5px);
     animation: h2-anim 0.8s ease-out forwards;
     animation-delay: 0.5s;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .remember-forgot {
-    margin: 0 0 32px 0;
+    margin: -10px 0 25px 0;
     font-size: .9em;
     color: #fff;
     display: flex;
@@ -125,7 +125,8 @@ h2 {
 
 .remember-forgot label {
     display: flex;
-    gap: 5px;
+    align-items: center;
+    gap: 0px;
 }
 
 .remember-forgot input {
@@ -135,6 +136,13 @@ h2 {
 .remember-forgot a {
     color: #fff;
     text-decoration: none;
+}
+
+.remember-forgot button {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    gap: 5px;
 }
 
 .boton {
@@ -177,4 +185,29 @@ h2 {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+}
+
+#rememberMessage {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -20px; 
+    margin-bottom: 25px; 
+    font-weight: 500;
+    opacity: 0;
+    max-height: 0; 
+    overflow: hidden;
+    transition: opacity 0.4s ease-in-out, max-height 0.4s ease-in-out;
+}
+
+.visible-message {
+    opacity: 1 !important;
+    max-height: 50px !important;
+    margin-top: 5px;
+}
+
+.hidden-message {
+    opacity: 0 !important;
+    max-height: 0 !important; 
+    margin-top: -20px;
 }
