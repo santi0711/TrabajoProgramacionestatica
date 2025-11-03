@@ -21,7 +21,44 @@
              color: #00ffcc;
              text-shadow: 0 0 10px #00ffcc;
         }
-       
+        .menu-btn {
+          display: block;
+         background: none;
+         border: 2px solid  #00ffcc;
+         color:  #00ffcc;
+         padding: 8px 12px;
+         border-radius: 20px;
+         font-size: 1rem;
+         cursor: pointer;
+         transition: background 0.3s ease, color 0.3s ease;
+         position: absolute;
+         top: 20px;
+         right: 20px;
+          text-shadow: 0 0 10px #00ffcc;
+        }
+
+        .menu-btn:hover {
+         background:  #00ffcc;
+         color: #fff;
+        }
+
+        .nav {
+         display: none;
+         flex-direction: column;
+         position: absolute;
+         top: 70px;
+         right: 20px;
+         background: #b40d71;
+         padding: 15px;
+         border-radius: 15px;
+         gap: 10px;
+         animation: fadeMenu 0.4s ease;
+        }
+
+        .nav.active {
+         display:flex;
+        }
+
         nav{
             display: flex;
             gap: 20px;
@@ -186,5 +223,5 @@
         }
          .sopor a:hover,
         .sopor a:active{
-            color: #e8e8e8be;
+            color:#00ffcc;
         } 
