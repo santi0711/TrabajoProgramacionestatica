@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #146930, #021106);
   font-family: "Poppins", sans-serif;
   transition: opacity 1s ease;
 }
@@ -65,5 +65,6 @@ button:hover {
    &:hover .main-btn {
       opacity: .25;
 }
-}
 
+
+}
