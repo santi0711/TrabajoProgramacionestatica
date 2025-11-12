@@ -5,4 +5,3 @@ function entrar() {
     window.location.href = "boceto.html"; // Redirige al boceto
   }, 1000);
 }
-
